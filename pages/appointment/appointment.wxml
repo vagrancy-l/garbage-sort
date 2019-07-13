@@ -1,0 +1,7 @@
+<!--pages/appointment/appointment.wxml-->
+<view class="appointment-wrap" hover-class="none" hover-stop-propagation="false">
+  <view class="address" hover-class="none" hover-stop-propagation="false">
+   
+      成都市 天府大道125号
+  </view>
+</view>

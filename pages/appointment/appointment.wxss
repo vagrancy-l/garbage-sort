@@ -1,0 +1,6 @@
+/* pages/appointment/appointment.wxss */
+.address {
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+}

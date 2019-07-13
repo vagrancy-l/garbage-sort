@@ -1,0 +1,14 @@
+  <!--pages/my/my.wxml-->
+<view class="my" hover-class="none" hover-stop-propagation="false">
+  <view class="header">
+    <image style="width: 100rpx; height:100rpx; background-color: #eeeeee; border-radius: 50%;"></image>
+    <view class="user-info">
+      <view class="nickname">我的昵称</view>
+      <view class="phone">绑定手机：88888888888</view>
+    </view>
+  </view>
+  <view class="myMoney" hover-class="none" hover-stop-propagation="false">
+    <view></view>
+    <view></view>
+  </view>
+</view>

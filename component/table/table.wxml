@@ -1,0 +1,6 @@
+<!--component/table/table.wxml-->
+<view class="table" hover-class="none" hover-stop-propagation="false">
+  <view class="header" hover-class="none" hover-stop-propagation="false" wx:for="{{tableHeader}}" wx:key="index">
+  </view>
+  
+</view>

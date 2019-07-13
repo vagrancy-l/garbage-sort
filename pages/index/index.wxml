@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="address">
+    <icon class="" type="search" size="23" color=""></icon>
+     <view class="text" hover-class="none" hover-stop-propagation="false">
+        成都市 天府大道125号
+     </view>
+  </view>
+ <view class="banner" hover-class="none" hover-stop-propagation="false">
+   <swiper indicator-dots="{{true}}" autoplay="{{true}}">
+     <swiper-item class="{{'banner' + index}} swiper" item-id="" wx:for="{{list}}" wx:key="{{index}}">
+       {{item.name}}
+     </swiper-item>
+   </swiper>
+ </view>
+ <view class="func">
+   <view wx:for="{{funcList}}" wx:key="{{index}}" class="func-list" hover-class="hover">
+     <view class="text-list">{{item.text}}</view>
+     <view class="icon">
+       <icon class="icon-list" type="success" size="23" color="">
+       </icon>
+     </view>
+   </view>
+ </view>
+ <table></table>
+</view>
